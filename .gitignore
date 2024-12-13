@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# # Logs
+# logs
+# *.log
+# npm-debug.log*
+
+# Environment variables
+.env
+
+# # Runtime data
+# pids
+# *.pid
+# *.seed
+
+# # Coverage directory used by tools like istanbul
+# coverage/
+# .nyc_output/
+
+# # Grunt intermediate storage
+# .grunt/
+
+# # Optional npm cache directory
+# .npm/
+
+# # Optional REPL history
+# .node_repl_history
+
+# # Compiled binary addons
+# build/Release/
+
+# Visual Studio Code files
+.vscode/

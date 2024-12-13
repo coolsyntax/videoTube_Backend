@@ -1,0 +1,28 @@
+{
+    "name": "videotube_backend",
+    "version": "1.0.0",
+    "description": "A backend for youtube plus twitter like app",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "mongodb",
+        "backend"
+    ],
+    "author": "Abhishek Kumar",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.7",
+        "prettier": "^3.4.2"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "mongoose": "^8.8.4"
+    }
+}
