@@ -71,7 +71,11 @@ const registerUser = asyncHandler(async (req, res) => {
         );
 
         if (!createdUser) {
-            throw new ApiError(500, "something went wrong while creating user");
+            throw new ApiError(
+                500,
+                "something went wrong while creating user",
+                error
+            );
         }
 
         return res
@@ -94,7 +98,11 @@ const registerUser = asyncHandler(async (req, res) => {
             await deleteFromCloudinary(coverImage.public_id);
         }
 
-        throw new ApiError(500, "something went wrong while creating user");
+        throw new ApiError(
+            500,
+            "something went wrong while creating user",
+            error
+        );
     }
 });
 
